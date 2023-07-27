@@ -1,0 +1,24 @@
+# Entorno virtual de Python (por ejemplo, creado con virtualenv o venv)
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos de configuración
+*.env
+*.ini
+*.cfg
+
+# Dependencias y paquetes descargados
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Archivos generados
+*.log
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
