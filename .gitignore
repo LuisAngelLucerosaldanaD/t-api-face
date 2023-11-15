@@ -1,6 +1,6 @@
 # Entorno virtual de Python (por ejemplo, creado con virtualenv o venv)
 venv/
-env/
+venv/
 *.pyc
 *.pyo
 __pycache__/

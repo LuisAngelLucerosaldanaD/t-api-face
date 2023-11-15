@@ -40,14 +40,17 @@ def compare_face():
 
         os.remove(path_selfie)
         os.remove(path_document)
+        print(resul)
         if resul['verified']:
             resul['verified'] = 'true'
+            data = True
         else:
             resul['verified'] = 'false'
+            data = False
 
         return jsonify({
             'error': False,
-            'data': resul,
+            'data': data,
             'code': 22,
             'type': 'success',
             'msg': 'Procesado correctamente'

@@ -7,7 +7,7 @@ Este API hace uso del entorno virtual de que nos provee Python para el aislamien
 Inicialización del entorno virtual
 
 ````bash
-python -m venv env
+python -m venv venv
 ````
 
 Despues de generar el entorno virtual se debe de activar el entorno virutal
@@ -21,7 +21,7 @@ Despues de generar el entorno virtual se debe de activar el entorno virutal
 * Para sistemas operativos basados en Linux
 
 ````bash
-./env/Scripts/activate
+./venv/Scripts/activate
 ````
 
 ## Instalación de librerias
